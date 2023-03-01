@@ -22,9 +22,16 @@ export default {
 @use '../style/partials/reset' as *;
 
 section {
-    padding: 66px 0;
+    height: 132px;
     background-color: #1C1C1C;
     color: white;
+
+    .container {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        height: 100%;
+    }
 
     .text-example{
         font-size: 36px;
