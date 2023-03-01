@@ -31,7 +31,7 @@
 
 <style lang="scss" scoped>
 @use '../style/partials/reset' as *;
-@use '../style/general.scss' as*;
+@use '../style/general.scss' as *;
 
 
 .logo-img{
