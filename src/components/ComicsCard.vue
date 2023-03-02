@@ -27,6 +27,7 @@ export default {
 
 .poster-col{
     width: calc((100%/6) - (100px / 6));
+    margin-bottom: 25px;
 
     img{
         width: 100%;

@@ -34,6 +34,9 @@
         </section>
 
         <section class="main-footer">
+
+            
+
             <div class="container">
                 <div class="row">
                     <div class="col-1">
@@ -61,7 +64,7 @@
 
                         <h4>Dc Comics</h4>
                         <ul>
-                            <li><a href="#">link</a></li>
+                            <li><a href="#">Characters</a></li>
                             <li><a href="#">link</a></li>
                             <li><a href="#">link</a></li>
                             <li><a href="#">link</a></li>
@@ -88,6 +91,11 @@
                         </ul>
 
                     </div>
+                    
+                    <div class="dc-logo-footer">
+                        <img src="/img/dc-logo-bg.png" alt="">
+                    </div>
+
                 </div>
             </div>
         </section>
@@ -167,10 +175,17 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
+    position: relative;
 
     .row{
         gap: 55px;
     }
+}
+
+.dc-logo-footer{
+    position: absolute;
+    right: 200px;
+    width: 300px;
 }
 
 .cta-footer {
