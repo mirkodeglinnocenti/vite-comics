@@ -9,10 +9,18 @@
                 </div>
 
                 <ul class="menu-list">
-                    <li><a href="#">menu 1</a></li>
-                    <li><a href="#">menu 2</a></li>
-                    <li><a href="#">menu 3</a></li>
-                    <li><a href="#">menu 4</a></li>
+                    <li><a href="#">Characters</a></li>
+                    <li><a href="#">comics</a></li>
+                    <li><a href="#">movies</a></li>
+                    <li><a href="#">tv</a></li>
+                    <li><a href="#">games</a></li>
+                    <li><a href="#">collectibles</a></li>
+                    <li><a href="#">videos</a></li>
+                    <li><a href="#">fans</a></li>
+                    <li><a href="#">news</a></li>
+                    <li><a href="#">shop</a></li>
+
+
                 </ul>
 
             </div>
@@ -45,6 +53,9 @@
 
     li{
         margin: 0 17px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
     }
 }
 
